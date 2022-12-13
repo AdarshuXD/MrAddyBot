@@ -500,11 +500,11 @@ async def lego(event):
  quew = event.pattern_match.group(1)
 
  if event.sender_id != OWNER_ID and not quew:
-  await event.reply('Please Gimmie A Text For The Logo.')
+  await event.reply('Please Gimmie A Text For The Logo.👀')
 
   return
 
- pesan = await event.reply('Logo In A Process. Please Wait.')
+ pesan = await event.reply('Logo In A Process Babe. Please Wait.☀️')
 
  try:
 
@@ -524,7 +524,7 @@ async def lego(event):
 
     shadowcolor = "blue"
 
-    fnt = glob.glob("./Himawari/utils/Logo/*")
+    fnt = glob.glob("./Addy/utils/Logo/*")
 
     randf = random.choice(fnt)
 
@@ -544,7 +544,7 @@ async def lego(event):
 
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
 
-    fname = "Himawari.png"
+    fname = "Addy.png"
 
     img.save(fname, "png")
 
