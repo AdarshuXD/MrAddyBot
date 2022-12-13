@@ -23,9 +23,9 @@ SOFTWARE.
 """
 
 from telethon import events, Button, custom
-from Himawari.events import register
-from Himawari import telethn as tbot, SUPPORT_CHAT, UPDATES_CHANNEL, BOT_NAME
-HIMAWARI = "https://telegra.ph/file/9dfcdab5244a61b323210.jpg"
+from Addy.events import register
+from Addy import telethn as tbot, SUPPORT_CHAT, UPDATES_CHANNEL, BOT_NAME
+MrAddy = "https://te.legra.ph/file/46cb8fd244701611bfde4.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   STB = event.sender.first_name
@@ -33,6 +33,6 @@ async def awake(event):
   STB += "**Python Version : 3.10.6**\n\n"
   STB += "**python-Telegram-Bot : 13.12**\n\n"
   BUTTON = [[Button.url("Support", "https://t.me/{SUPPORT_CHAT}"), Button.url("Updates", "https://t.me/{UPDATES_CHANNEL}")]]
-  await tbot.send_file(event.chat_id, HIMAWARI, caption=STB,  buttons=BUTTON)
+  await tbot.send_file(event.chat_id, ADDY, caption=STB,  buttons=BUTTON)
 
   # thanks to stb the gay
