@@ -12,16 +12,17 @@
 An advanced scary looking :p telegram botto running on python3 with sqlalchemy, Redis, mongodb database.
 
 Reach out support at [Addy Support](https://t.me/AddySupport), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+
 <p align="center">
     <a href="https://python.org">
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
-    <a href="https://github.com/ArshCypherZ">
+    <a href="https://github.com/Adarshuxd">
         <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
     </a> <br>
-    <img src="https://img.shields.io/github/license/ArshCypherZ/HWBot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/forks/ArshCypherZ/HWBot?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/ArshCypherZ/HWBot?style=for-the-badge&logo=appveyor" alt="Stars">
+    <img src="https://img.shields.io/github/license/Adarshuxd/Addy?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    <img src="https://img.shields.io/github/forks/Adarshuxd/Addy?style=for-the-badge&logo=appveyor" alt="Forks">
+    <img src="https://img.shields.io/github/stars/Adarshuxd/Addy?style=for-the-badge&logo=appveyor" alt="Stars">
 </p>
 
 
