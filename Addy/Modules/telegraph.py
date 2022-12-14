@@ -31,7 +31,7 @@ from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
 
 TMP_DOWNLOAD_DIRECTORY = "tg-File/"
-babe = "Himawari_Robot"
+babe = "MrAddyBot"
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=babe)
 auth_url = r["auth_url"]
